@@ -1,0 +1,42 @@
+# ──────────────────────────────────────────────────────────────
+# ai_vision_lab · .gitignore
+# 실행하면 자동으로 생기는 결과·캐시 파일을 커밋 대상에서 제외합니다.
+# ──────────────────────────────────────────────────────────────
+
+# Ultralytics / YOLO 실행 결과
+runs/
+**/runs/
+*.engine
+*.onnx
+
+# 데이터셋 (Roboflow 등에서 받는 큰 폴더)
+dataset/
+**/dataset/
+*.zip.part
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# conda / venv
+.venv/
+venv/
+env/
+
+# OS · 에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 개인 환경·비밀키
+.env
+*.local
+
+# 결과물 임시 파일
+*_result.jpg
+*_result.png

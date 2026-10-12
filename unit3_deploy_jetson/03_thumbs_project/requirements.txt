@@ -1,0 +1,8 @@
+# 호스트 conda 환경(교안 부록 F ③) 또는 PC 용입니다. Docker 컨테이너(./run_docker.sh)에서는 설치하지 마세요.
+#  - 컨테이너는 처음 만들 때 setup_container.sh 가 필요한 패키지(roboflow · Jupyter)를 설치합니다.
+#  - 여기서 그냥 설치하면 opencv-python-headless(cv2 창이 안 뜸)와
+#    CPU용 onnxruntime(GPU용 onnxruntime-gpu 를 덮어씀)이 딸려 들어옵니다.
+ultralytics>=8.3
+roboflow
+onnx
+# onnxruntime   # (선택) PC에서 CPU로 best.onnx 실행할 때만. Jetson은 onnxruntime-gpu 를 쓰세요

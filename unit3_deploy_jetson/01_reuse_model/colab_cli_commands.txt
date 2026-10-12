@@ -1,0 +1,7 @@
+# [3.2] 같은 작업을 명령어(CLI) 한 줄로 – Colab 셀에 붙여 넣기
+# 학습
+!yolo detect train data=/content/RockPaperScissors_Data/RockPaperScissors_Data.yaml model=yolo11n.pt epochs=30 patience=5 imgsz=416
+# 검증
+!yolo detect val model=runs/detect/train/weights/best.pt data=/content/RockPaperScissors_Data/RockPaperScissors_Data.yaml
+# 추론
+!yolo detect predict model=runs/detect/train/weights/best.pt source=/content/RockPaperScissors_Data/test/images save=True

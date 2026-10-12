@@ -1,0 +1,16 @@
+# 실습 환경 한 번에 만들기 (통합 교안 7.2.8)
+#   conda env create -f environment.yml
+#   conda activate face_env
+name: face_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - dlib
+  - numpy
+  - pillow
+  - pip
+  - pip:
+      - face_recognition
+      - setuptools<81      # face_recognition_models 호환 (pkg_resources 필요)
+      - opencv-python<5     # OpenCV 5부터 Haar CascadeClassifier가 빠져서 4.x 사용
