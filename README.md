@@ -1,6 +1,6 @@
 # ai_vision_lab · 딥러닝과 Edge AI 실습 자료
 
-> 신라대학교 「AI 비전 실습 통합 교안」(3부 8단원)의 **모든 실습 코드와 실습 사진**을 단원 순서대로 모은 저장소입니다.
+> 「AI 비전 실습 통합 교안」(3부 8단원)의 **모든 실습 코드와 실습 사진**을 단원 순서대로 모은 저장소입니다.
 
 ![python](https://img.shields.io/badge/Python-3.10-blue)
 ![ultralytics](https://img.shields.io/badge/Ultralytics-8.4-ff69b4)
@@ -117,5 +117,5 @@ PC에서는 터미널(Anaconda Prompt)을 열었을 때의 폴더에 두세요.
 
 ## 🙋 문의
 
-- 수업 자료 관련 문의: 신라대학교 딥러닝과 Edge-AI 교과 담당 교수(jhkim3217@gmail.com)
+- 수업 자료 관련 문의: 신라대학교 사범대학 컴퓨터교육과 딥러닝과 Edge-AI 교과 담당 교수(jhkim3217@gmail.com)
 - 코드 오류 · 개선 제안: [Issues](../../issues) 에 올려 주세요
