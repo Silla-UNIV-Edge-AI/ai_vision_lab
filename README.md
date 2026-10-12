@@ -1,6 +1,6 @@
-# ai_vision_lab · 딥러닝과 Edge AI 실습 자료
+# ai_vision_lab · 딥러닝과 Edge AI Hands-On-Labs
 
-> 「AI 비전 실습 통합 교안」(3부 8단원)의 **모든 실습 코드와 실습 사진**을 단원 순서대로 모은 저장소입니다.
+> 「딥러닝과 Edge AI 교안」(3부 8단원)의 **모든 실습 코드와 실습 사진**을 단원 순서대로 모은 저장소입니다.
 
 ![python](https://img.shields.io/badge/Python-3.10-blue)
 ![ultralytics](https://img.shields.io/badge/Ultralytics-8.4-ff69b4)
